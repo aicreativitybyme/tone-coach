@@ -10,11 +10,11 @@ The 4 levels come from Jun Yuh's (@jun_yuh) "same sentence, 4 ways" reel. Made b
 ## Install (5 minutes, Mac)
 
 **Easiest:** open Claude Code and say:
-> install the tone-coach skill from https://github.com/<this repo> and run its setup
+> install the tone-coach skill from https://github.com/aicreativitybyme/tone-coach and run its setup
 
 **Or by hand,** in Terminal:
 ```bash
-git clone https://github.com/<this repo>.git ~/.claude/skills/tone-coach
+git clone https://github.com/aicreativitybyme/tone-coach.git ~/.claude/skills/tone-coach
 bash ~/.claude/skills/tone-coach/setup.sh
 ```
 Setup checks your tools (ffmpeg, yt-dlp, node, python) and tells you how to install anything missing.
